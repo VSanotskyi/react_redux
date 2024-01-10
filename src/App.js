@@ -1,6 +1,10 @@
+import {TodosList} from "./components/todosList/todosList";
+
 const App = () => {
     return (
-        <div>App</div>
+        <div>
+            <TodosList/>
+        </div>
     );
 };
 
